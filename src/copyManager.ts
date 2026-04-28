@@ -88,9 +88,9 @@ export class CopyManager {
                 
                 // 用背景色作为文字颜色，用实心圆字符 ● 代替色块
                 dotEl.style.color = bgColor; 
-                dotEl.style.fontSize = '18px'; // 调整圆点大小，可微调
+                dotEl.style.fontSize = '24px'; // 调整圆点大小，可微调
                 dotEl.style.lineHeight = '1';
-                dotEl.style.marginRight = '6px'; // 点与点之间的间距，可微调
+                dotEl.style.marginRight = '0px'; // 点与点之间的间距，可微调
                 dotEl.innerText = '●'; // 塞入实心圆字符
             });
             // ========== 修复结束 ==========
